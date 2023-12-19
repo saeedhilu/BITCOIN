@@ -138,6 +138,7 @@ option{
 .rot3{
  
     display: flex;
+    
     justify-content: center;
 }
 .card2{

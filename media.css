@@ -10,8 +10,6 @@
     .section1{
         display: none;
     } 
-   
-
 }
 @media(max-width:640px)
  {
@@ -154,5 +152,13 @@
     }
     .final{
         display: none;
+    }
+}
+@media (max-width:380px){
+    #link{
+    font-size: 0.7rem;
+   
+    }
+    
     }
 }
