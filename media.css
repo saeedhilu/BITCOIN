@@ -1,0 +1,158 @@
+
+@media (max-width:1081px){
+   
+    .section0{
+        display: none;
+    }  
+    
+}
+@media (min-width:1081px){
+    .section1{
+        display: none;
+    } 
+   
+
+}
+@media(max-width:640px)
+ {
+    .section1,.section0,.heading{
+        display: none;
+    }
+    #nav{
+        display: none ;
+    }
+    #nav.show{
+        display: flex;     
+        background-color:#13161f ;
+        margin-top: 50px;
+        color: white;
+    }
+    #format{
+      padding: 10px;
+       color: white;
+       background-color: #13161f;    
+    }
+    .logo {
+        margin: 10px;
+        width: 100px;
+        height: 20px;
+    }   
+ }
+@media(min-width:640px){
+    .header1{
+        display: none;
+    }
+    .bitc{
+        font-size: 2.5rem;      
+    }  
+}
+@media (min-width:1030px){   
+}
+@media (max-width: 960px) {
+    .bgimg {    
+       background-image: url(images/overview-tablet.svg);    
+    }
+    #laimg{
+    width: 311px;
+    height: 312px;
+    }
+    .getheading1 p{
+        
+       margin-top: 150px;
+    }
+    #pg{
+       margin-bottom: 7px;    
+       font-size: 2rem;
+    }
+    .main4 img{
+        margin-top: auto;
+        width: 250px;
+    }
+    .mainpart2{
+        display: block;
+    }
+    .introduction{
+    display: flex;
+    justify-content: space-between;
+    }
+}
+@media (max-width: 640px) {
+    .bgimg {    
+       background-image: url(images/overview-mob.svg);      
+       background-size: cover;
+    }
+    .card1,.introduction{
+        display: none;
+    }
+    .card2{
+        display: flex;
+    }  
+    .main,.getheading1{
+        display: none;
+    }
+    .modified,.finish {
+        display: contents;
+    }
+    #pg1{
+        margin: 20px;
+        font-size: 121%;
+    }
+    .getleftpart2{
+        margin: 20px;
+    }
+    .mainpart2{
+
+        display: block;
+    }
+    .support{
+        text-align: center;
+    }
+    .donate{
+        display: flex;
+        justify-content: center;
+    }
+    .footer{
+    height: fit-content;
+    }
+    .finishpaert1,.finishpart2{
+        display: flex;
+        justify-content: space-between;
+    }
+}
+@media (max-width:314px){
+#imgg{
+   width: 180px;
+   height: 200px;
+}
+.sample{
+    width: 30px;
+}
+}
+@media (max-width:782px){
+    .getleftpart1{
+       display: flex;
+    } 
+}
+@media (max-width:1230px){
+    #m1{
+        width:auto;    
+    }
+    .main{
+       margin:40px
+    } 
+}
+@media (max-width:769px){
+    .finalast{
+        display: contents;
+        color: #646464;
+      
+    }
+    .final21{
+        display: flex;
+        justify-content: center;
+        background-color: black;
+    }
+    .final{
+        display: none;
+    }
+}

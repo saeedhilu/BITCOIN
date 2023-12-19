@@ -1,0 +1,235 @@
+body{
+    margin: 0;
+    font-family: 'Open Sans',sans-serif;
+}
+.section0{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+.class2,.class2{
+    display: flex; 
+}
+#format,#format2{
+    border: none;
+    outline: 0;
+   display: flex;
+  font-size: 17px;
+  margin-top: 20px;
+  background-color: white;
+  cursor: pointer;
+}
+.logo {
+    position: ab; 
+    left: 10px; 
+    top: 10px; 
+    height: 300px;
+}
+nav {
+    display: flex;
+    justify-content:center ;
+    height: fit-content;
+    list-style: none;
+}
+.toggle-btn{
+    width: 25px;
+    position: absolute;
+    right:2px;
+    top: 10px;
+}
+.toggle-btn span{
+    display: inline-block;
+    width: 100% ;
+    height: 3px;
+    float: left;
+    margin-top: 8px;
+    background-color:#646464;
+}
+ul{
+    list-style: none;
+    font-size: 14.08px;
+}
+option{
+    color: #646464;
+    font-size: 16px;
+}
+  
+.bitc{
+    max-width: 700px;
+    margin: 0 auto 45px;
+    font-size: 1.9111rem;
+    color: #1C1F30;
+    margin-top: 100px;
+    text-align: center;
+}
+
+.btn-container{
+    text-align:center;
+}
+.btn {
+    display:inline-block;
+    max-width: 100%;
+    padding: 16px 25px;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-weight:600;
+    font-size:100%;
+    color:#fff;
+    border-radius:1px;
+    text-decoration: none;
+}
+.btn-home {
+    width: 336.5px;
+    height: 55px;
+}
+.btn-bright {
+    background: #FF9500;
+    color: #fff;
+}
+.btn-light {
+    padding: 15px 25px;
+    color: #FF7E00;
+    background: #fff;
+    border: 1px solid #FF7E00;
+}
+.bgimg{
+    position: relative;
+  padding: 375px 0 130px;
+  background-image: url(images/asset\ 13.svg);
+  background-size: cover;
+  text-align: center;  
+}
+.card{ 
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.card p,.card2 p{
+    font-size: 100%;
+  color: #9D9D9D;
+}
+.card1{
+    display: inline-block;
+    height: 200px;
+    margin: 0 8px;
+    padding: 40px 32px 0;
+    text-align: center;
+    background: #090c14;
+    box-sizing: border-box;
+    width: 228.8px;     
+}
+.t{
+    color: white;
+    font-size: 20px;
+}
+#rot{
+    background-color: #13161F;   
+    width: 50px;
+    height: 50px;
+    transform: rotate(45deg);
+}
+#rot1 {
+    height: 30px;
+    width: 20px;
+    transform: rotate(-45deg);
+    margin-left: 14px;
+    margin-top: 10px;
+}
+.rot3{
+ 
+    display: flex;
+    justify-content: center;
+}
+.card2{
+    display: none;
+    justify-content: center;
+    background-color: #090c14;
+    width: 250px;
+    margin-top: 20px;
+}
+.main{
+    display: flex;
+   justify-content: space-around;  
+}
+.sample{
+    display: flex;
+}
+.sample img{
+    width: 40px;
+    height: 50px;
+}
+.main2{
+    margin: 0 0 90px ;
+    font-size: 125%;
+    text-align: left;
+    color: #4D5060;
+}
+.main4 img{
+ width: 390px;
+}
+#m1{
+    width: 480px;
+}
+.getheading1 p,.getheading2 p{
+   display: flex;
+   justify-content: center;
+    background-color: #090c14;
+    width: 180px;
+    height: 50px;
+    color: white;
+    line-height: 50px;
+}
+.getheading1,.getheading2{
+    margin-top: auto;
+    display: flex;
+    justify-content: center;
+}
+.modified{
+    display: none;
+}
+.footer{
+    height: 700px;
+    background-color: #1C1F30;
+    background-image: url(images/asset\ 15.svg);
+    background-repeat: no-repeat;
+}
+.introduction{
+    display: flex;
+}
+.introduction div{
+   margin: 20px;
+}
+
+.mainpart2{
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+    color: #646464;
+    font-size: 100%;
+}
+.donate{
+    display: flex;
+    color: white;
+}
+.final{
+    display: flex;
+    justify-content: space-between;
+   background-color: #090c14;
+   color: #646464;
+}
+.final2{
+    display: flex;
+   justify-content: space-around;
+    margin: auto;
+}
+.finalast{
+    display: none;
+    background-color: #090c14;
+}
+.a h4,.b h4,.c h4,.d h4{
+    color: white;
+}
+.finishpaert1,.finishpart2{
+    display: none;
+    color: #4D5060;
+}
